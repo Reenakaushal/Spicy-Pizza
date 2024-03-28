@@ -101,15 +101,15 @@
     visibility: visible;
   }
 }
+
 .veg{
     position: absolute;
-  width: 70px;
+    height:100px;
+    width:100px;
   margin-top: 80px;
-  height: 50px;
-  left: 200px ;
-  background-color: #234d29;
-  bottom: 200px;
-  border-radius: 50%;
+  clip-path: polygon(10% 50%, 20% 45%, 30% 40%, 40% 40%, 50% 40%, 60% 40%, 70% 40%, 80% 40%, 90% 45%, 100% 70%, 90% 65%, 80% 60%, 70% 55%, 60% 55%, 50% 55%, 40% 55%, 30% 55%, 20% 55%, 10% 55%);
+  left: 250px ;
+  background-color: green;
   bottom: 150px;
   animation: 1s fadeIn;
   animation-fill-mode: forwards;
@@ -126,16 +126,17 @@
 }
 .veg2{
     position: absolute;
-  width: 70px;
+    height:100px;
+    width:100px;
   margin-top: 80px;
-  height: 50px;
-  left: 540px ;
-  background-color: #234d29;
-  border-radius: 50%;
-  bottom: 270px;
+  clip-path: polygon(10% 50%, 20% 45%, 30% 40%, 40% 40%, 50% 40%, 60% 40%, 70% 40%, 80% 40%, 90% 45%, 100% 70%, 90% 65%, 80% 60%, 70% 55%, 60% 55%, 50% 55%, 40% 55%, 30% 55%, 20% 55%, 10% 55%);
+  background-color: green;
+right: 140px;
+  bottom: 120px;
   animation: 1s fadeIn;
   animation-fill-mode: forwards;
   visibility: hidden;
+  transform: rotate(145deg);
 }
 
 @keyframes fadeIn {
@@ -148,13 +149,13 @@
 }
 .veg3{
     position: absolute;
-  width: 70px;
+    height:100px;
+    width:100px;
   margin-top: 120px;
-  height: 50px;
-  top: 90px ;
+  top: 80px ;
   left: 450px;
-  background-color: #234d29;
-  border-radius: 50%;
+  background-color: green;
+  clip-path: polygon(10% 50%, 20% 45%, 30% 40%, 40% 40%, 50% 40%, 60% 40%, 70% 40%, 80% 40%, 90% 45%, 100% 70%, 90% 65%, 80% 60%, 70% 55%, 60% 55%, 50% 55%, 40% 55%, 30% 55%, 20% 55%, 10% 55%);
   bottom: 700px;
   animation: 1s fadeIn;
   animation-fill-mode: forwards;
@@ -171,13 +172,13 @@
 }
 .veg4{
     position: absolute;
-  width: 70px;
+    height:100px;
+    width:100px;
   margin-top: 80px;
-  height: 50px;
   top: 140px ;
   left: 260px;
-  background-color: #234d29;
-  border-radius: 50%;
+  background-color: green;
+  clip-path: polygon(10% 50%, 20% 45%, 30% 40%, 40% 40%, 50% 40%, 60% 40%, 70% 40%, 80% 40%, 90% 45%, 100% 70%, 90% 65%, 80% 60%, 70% 55%, 60% 55%, 50% 55%, 40% 55%, 30% 55%, 20% 55%, 10% 55%);
   bottom: 200px;
   animation: 1s fadeIn;
   animation-fill-mode: forwards;
@@ -194,17 +195,18 @@
 }
 .veg5{
     position: absolute;
-  width: 70px;
+    height:100px;
+    width:100px;
   margin-top: 80px;
-  height: 50px;
   top: 20px ;
   right: 390px;
-  background-color: #234d29;
-  border-radius: 50%;
+  background-color: green;
+  clip-path: polygon(10% 50%, 20% 45%, 30% 40%, 40% 40%, 50% 40%, 60% 40%, 70% 40%, 80% 40%, 90% 45%, 100% 70%, 90% 65%, 80% 60%, 70% 55%, 60% 55%, 50% 55%, 40% 55%, 30% 55%, 20% 55%, 10% 55%);
   bottom: 200px;
   animation: 1s fadeIn;
   animation-fill-mode: forwards;
   visibility: hidden;
+  transform: rotate(-75deg);
 }
 
 @keyframes fadeIn {
@@ -217,17 +219,18 @@
 }
 .veg6{
     position: absolute;
-  width: 70px;
+    height:100px;
+    width:100px;
   margin-top: 80px;
-  height: 50px;
   top: 260px ;
   left: 100px;
-  background-color: #234d29;
-  border-radius: 50%;
+  background-color: green;
+  clip-path: polygon(10% 50%, 20% 45%, 30% 40%, 40% 40%, 50% 40%, 60% 40%, 70% 40%, 80% 40%, 90% 45%, 100% 70%, 90% 65%, 80% 60%, 70% 55%, 60% 55%, 50% 55%, 40% 55%, 30% 55%, 20% 55%, 10% 55%);
   bottom: 200px;
   animation: 1s fadeIn;
   animation-fill-mode: forwards;
   visibility: hidden;
+  transform: rotate(-145deg);
 }
 
 @keyframes fadeIn {
@@ -240,17 +243,17 @@
 }
 .veg7{
     position: absolute;
-  width: 70px;
+    height:100px;
+    width:100px;
   margin-top: 80px;
-  height: 50px;
-  top: 450px ;
-  right: 200px;
-  background-color: #234d29;
-  border-radius: 50%;
-  bottom: 400px;
+  top: 280px ;
+  right: 230px;
+  background-color: green;
+  clip-path: polygon(10% 50%, 20% 45%, 30% 40%, 40% 40%, 50% 40%, 60% 40%, 70% 40%, 80% 40%, 90% 45%, 100% 70%, 90% 65%, 80% 60%, 70% 55%, 60% 55%, 50% 55%, 40% 55%, 30% 55%, 20% 55%, 10% 55%);
   animation: 1s fadeIn;
   animation-fill-mode: forwards;
   visibility: hidden;
+ 
 }
 
 @keyframes fadeIn {
@@ -263,14 +266,86 @@
 }
 .veg8{
     position: absolute;
-  width: 70px;
+    height:100px;
+    width:100px;
   margin-top: 80px;
-  height: 50px;
-  top: 290px ;
-  right: 250px;
-  background-color: #234d29;
+  clip-path: polygon(10% 50%, 20% 45%, 30% 40%, 40% 40%, 50% 40%, 60% 40%, 70% 40%, 80% 40%, 90% 45%, 100% 70%, 90% 65%, 80% 60%, 70% 55%, 60% 55%, 50% 55%, 40% 55%, 30% 55%, 20% 55%, 10% 55%);
+  top: 5px ;
+  background-color: green;
   border-radius: 50%;
-  bottom: 240px;
+  right: 190px;
+  animation: 1s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  transform: rotate(35deg);
+}
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+.veg9{
+    position: absolute;
+    height:100px;
+    width:100px;
+  margin-top: 80px;
+  clip-path: polygon(10% 50%, 20% 45%, 30% 40%, 40% 40%, 50% 40%, 60% 40%, 70% 40%, 80% 40%, 90% 45%, 100% 70%, 90% 65%, 80% 60%, 70% 55%, 60% 55%, 50% 55%, 40% 55%, 30% 55%, 20% 55%, 10% 55%);
+  top: 240px ;
+  background-color: green;
+  border-radius: 50%;
+  right: 70px;
+  animation: 1s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  transform: rotate(75deg);
+}
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+.veg10{
+    position: absolute;
+    height:100px;
+    width:100px;
+  margin-top: 80px;
+  clip-path: polygon(10% 50%, 20% 45%, 30% 40%, 40% 40%, 50% 40%, 60% 40%, 70% 40%, 80% 40%, 90% 45%, 100% 70%, 90% 65%, 80% 60%, 70% 55%, 60% 55%, 50% 55%, 40% 55%, 30% 55%, 20% 55%, 10% 55%);
+  top: 440px ;
+  background-color: green;
+  border-radius: 50%;
+  left: 170px;
+  animation: 1s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  transform: rotate(-170deg);
+}
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+.veg11{
+    position: absolute;
+    height:100px;
+    width:100px;
+  margin-top: 80px;
+  clip-path: polygon(10% 50%, 20% 45%, 30% 40%, 40% 40%, 50% 40%, 60% 40%, 70% 40%, 80% 40%, 90% 45%, 100% 70%, 90% 65%, 80% 60%, 70% 55%, 60% 55%, 50% 55%, 40% 55%, 30% 55%, 20% 55%, 10% 55%);
+  top: 110px ;
+  background-color: green;
+  border-radius: 50%;
+  left: 80px;
   animation: 1s fadeIn;
   animation-fill-mode: forwards;
   visibility: hidden;
@@ -284,7 +359,134 @@
     visibility: visible;
   }
 }
+.olive {
+  border: 5px solid black;
+  width: 15px;
+  height: 15px;
+  top: 240px;
+  right: 10px;
+  position: absolute;
+  border-radius: 100%;
+}
 
+.olive-1{
+  border: 5px solid black;
+  width: 15px;
+  height: 15px;
+  top: 490px;
+  left: 190px;
+  position: absolute;
+  border-radius: 100%;
+}
+
+.olive-2{
+  border-color:  black;
+  width: 15px;
+  height: 15px;
+  top: 130px;
+  right: 270px;
+}
+
+.olive-3{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  top: 150px;
+  left: 200px;
+}
+.olive-4{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  top: 300px;
+  right: 240px;
+}
+.olive-5{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  top: 2560px;
+  left: 350px;
+}
+.olive-6{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  bottom: 20px;
+  left: 175px;
+}
+.olive-7{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  top: 300px;
+  left: 300px;
+}
+.olive-8{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  top: 400px;
+  left: 305px;
+  font-weight: 1500px
+}
+
+.olive-9{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  bottom: 20px;
+  right: 95px;
+}
+.olive-10{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  bottom: 20px;
+  left: 175px;
+}
+.olive-11{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  top: 350px;
+  left: 75px;
+}
+.olive-12{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  top: 510px;
+  right: 220px;
+}
+.olive-13{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  top: 550px;
+  left: 250px;
+}
+.olive-14{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  top: 370px;
+  left: 175px;
+}
+.olive-15{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  top: 400px;
+  right: 175px;
+}
+.olive-16{
+  border-color: black;
+  width: 15px;
+  height: 15px;
+  top: 190px;
+  right: 175px;
+}
 .cheese {
   position: absolute;
   width: 20px;
